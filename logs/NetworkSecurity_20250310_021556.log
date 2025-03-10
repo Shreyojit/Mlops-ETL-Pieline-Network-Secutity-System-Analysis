@@ -1,0 +1,7 @@
+[2025-03-10 02:15:56] [   ERROR] [logger:59] - Uncaught exception
+Traceback (most recent call last):
+  File "/home2/cslab/Videos/MlOps-Network-Security-Analysis/main.py", line 1, in <module>
+    from networksecurity.components.data_ingestion import DataIngestion
+  File "/home2/cslab/Videos/MlOps-Network-Security-Analysis/networksecurity/components/data_ingestion.py", line 7, in <module>
+    from networksecurity.components.data_ingestion import DataIngestion
+ImportError: cannot import name 'DataIngestion' from partially initialized module 'networksecurity.components.data_ingestion' (most likely due to a circular import) (/home2/cslab/Videos/MlOps-Network-Security-Analysis/networksecurity/components/data_ingestion.py)

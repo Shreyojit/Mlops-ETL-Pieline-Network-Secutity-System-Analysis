@@ -1,0 +1,9 @@
+[ 2025-03-10 02:39:57,633 ] 59 NetworkSecurity - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home2/cslab/Videos/MlOps-Network-Security-Analysis/main.py", line 1, in <module>
+    from networksecurity.components.data_ingestion import DataIngestion
+  File "/home2/cslab/Videos/MlOps-Network-Security-Analysis/networksecurity/components/data_ingestion.py", line 10, in <module>
+    from networksecurity.entity.config_entity import(
+  File "/home2/cslab/Videos/MlOps-Network-Security-Analysis/networksecurity/entity/config_entity.py", line 3, in <module>
+    from networksecurity.constants.training_pipeline import training_pipeline
+ImportError: cannot import name 'training_pipeline' from 'networksecurity.constants.training_pipeline' (/home2/cslab/Videos/MlOps-Network-Security-Analysis/networksecurity/constants/training_pipeline/__init__.py)

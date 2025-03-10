@@ -1,0 +1,14 @@
+[ 2025-03-10 01:18:30,383 ] 59 NetworkSecurity - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home2/cslab/Videos/MlOps-Network-Security-Analysis/push_data.py", line 79, in <module>
+    records = manager.csv_to_json_records(CSV_PATH)
+  File "/home2/cslab/Videos/MlOps-Network-Security-Analysis/push_data.py", line 35, in csv_to_json_records
+    logging.info(f"Converting CSV file: {file_path}")
+NameError: name 'logging' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home2/cslab/Videos/MlOps-Network-Security-Analysis/push_data.py", line 88, in <module>
+    logging.error(f"Unexpected error: {str(e)}")
+NameError: name 'logging' is not defined
